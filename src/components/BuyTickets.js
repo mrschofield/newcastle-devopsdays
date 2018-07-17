@@ -4,7 +4,7 @@ const BuyTickets = () => (
   <section id="buy-tickets">
     <div className="row">
       <div className="twelve columns collapsed">
-        <h1>Where?</h1>
+        <h1>Buy Tickets</h1>
       </div>
 
       <div className="text">
@@ -14,7 +14,9 @@ const BuyTickets = () => (
           practice of DevOps world-wide. 
         </p>
 
-        <button>Buy Tickets</button>
+        <p className="centered">
+          <button>Buy Tickets</button>
+        </p>
       </div>
     </div>
   </section>

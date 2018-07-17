@@ -6,6 +6,7 @@ import "../assets/css/main.css";
 import Header from "../components/Header";
 import About from "../components/About";
 import Where from "../components/Where";
+import BuyTickets from "../components/BuyTickets";
 import Sponsors from "../components/Sponsors";
 import Organisers from "../components/Organisers";
 import SubmitTalk from "../components/SubmitTalk"
@@ -16,6 +17,7 @@ const IndexPage = () => (
     <Header />
     <About />
     <Where />
+    <BuyTickets />
     <SubmitTalk />
     <Sponsors />
     <Organisers />

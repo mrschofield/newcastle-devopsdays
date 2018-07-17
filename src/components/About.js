@@ -12,34 +12,29 @@ const About = () => (
       <div className="nine columns main-col">
         <h2>About DevOpsDays</h2>
         <p>
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
-          ab illo inventore veritatis et quasi architecto beatae vitae dicta
-          sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-          aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos
-          qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui
-          dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed
-          quia non numquam eius modi tempora incidunt ut labore et dolore magnam
-          aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum
-          exercitationem ullam corporis suscipit laboriosam.
+          <a href="https://www.devopsdays.org/">Devopsdays</a> is a community-organized not-for-profit conference series 
+          for <a href="https://en.wikipedia.org/wiki/DevOps">DevOps</a> practitioners. It is a worldwide series of technical 
+          conferences covering topics of software development, IT infrastructure operations, and the intersection 
+          between them. Each event is run by volunteers from the local area. 
         </p>
-        <div className="row">
-          <div className="columns contact-details">
-            <h2>Contact Details</h2>
-            <p className="address">
-              <span>Jonathan Doe</span>
-              <br />
-              <span>
-                1600 Amphitheatre Parkway
-                <br /> Mountain View, CA 94043 US
-              </span>
-              <br />
-              <span>(123)456-7890</span>
-              <br />
-              <span>anyone@website.com</span>
-            </p>
-          </div>
-        </div>
+        <p>
+          Most Devopsdays events feature a combination of curated talks and 
+          self-organized <a href="https://www.devopsdays.org/open-space-format/">open space</a> content. Topics often include 
+          cloud, development, operations, automation, testing, security, and organizational culture.
+        </p>
+        <p>
+          Respect and empathy are core devops values. Devopsdays is dedicated to providing an environment where everyone in the 
+          devops community can learn and share in respectful, considerate collaboration. The event operates under a code of conduct 
+          available here: <a href="https://www.devopsdays.org/conduct/">https://www.devopsdays.org/conduct/</a>
+        </p>
+        <p>This is the first time Devopsdays will be held 'regionally' within Australia. Newcastle, the seaside city, sitting 
+          majestically where the ocean meets our working international port. Our city snakes around the coastline with golden 
+          beaches within walking distance of almost anywhere.
+        </p>
+        <p>
+          Local organisers for this conference range from varying companies around the Newcastle and Hunter 
+          Valley regions.  
+        </p>
       </div>
     </div>
   </section>

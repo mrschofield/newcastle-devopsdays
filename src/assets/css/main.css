@@ -1306,17 +1306,24 @@ ul#nav li.current a {
 /* ------------------------------------------------------------------ */
 
 #sponsors {
-  background: #ebeeee;
+  background: #ffffff;
   padding-top: 90px;
   padding-bottom: 60px;
 }
 #sponsors h1 {
-  font: 15px/24px "opensans-semibold", sans-serif;
+  font: 22px/24px "opensans-semibold", sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
   text-align: center;
   margin-bottom: 48px;
-  color: #95a3a3;
+  color: #111111;
+}
+#sponsors h3 {
+  font: 18px/21px "opensans-semibold", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #111111;
 }
 
 /* ------------------------------------------------------------------ */
@@ -1463,10 +1470,15 @@ ul#nav li.current a {
 #submit {
   padding-top: 90px;
   padding-bottom: 60px;
-  text-align: center;
   position: relative;
   z-index: 1;
   color: #e3e3e3;
+}
+
+#submit > div {
+  width: 50%;
+  margin-left: 25%;
+  text-align: left;
 }
 
 #submit .white-board-pic {

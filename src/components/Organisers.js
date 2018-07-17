@@ -1,7 +1,12 @@
 import React from "react";
 import { FaUser } from "react-icons/lib/fa";
 
-import ProfilePic from "../assets/images/profilepic.jpg";
+import MathewFinch from "../assets/images/mathew_finch.jpeg"
+import KurtGardiner from "../assets/images/kurt_gardiner.jpeg"
+import WayneIngram from "../assets/images/wayne_ingram.jpg"
+import JonathanMilgate from "../assets/images/jonathan.jpg"
+import DamianBrady from "../assets/images/damian_brady.png"
+import LindseyHolmwood from "../assets/images/lindsay_holmwood.jpg"
 
 const Organisers = () => (
   <section id="organisers">
@@ -13,7 +18,7 @@ const Organisers = () => (
           <div className="columns organisers-item">
             <div className="item-wrap">
               <a href="#modal-01" title="">
-                <img alt="" src={ProfilePic} />
+                <img alt="" src={MathewFinch} />
                 <div className="overlay">
                   <div className="organisers-item-meta">
                     <h5>Mathew Finch</h5>
@@ -27,7 +32,7 @@ const Organisers = () => (
           <div className="columns organisers-item">
             <div className="item-wrap">
               <a href="#modal-01" title="">
-                <img alt="" src={ProfilePic} />
+                <img alt="" src={KurtGardiner} />
                 <div className="overlay">
                   <div className="organisers-item-meta">
                     <h5>Kurt Gardiner</h5>
@@ -41,7 +46,7 @@ const Organisers = () => (
           <div className="columns organisers-item">
             <div className="item-wrap">
               <a href="#modal-01" title="">
-                <img alt="" src={ProfilePic} />
+                <img alt="" src={WayneIngram} />
                 <div className="overlay">
                   <div className="organisers-item-meta">
                     <h5>Wayne Ingram</h5>
@@ -55,7 +60,7 @@ const Organisers = () => (
           <div className="columns organisers-item">
             <div className="item-wrap">
               <a href="#modal-01" title="">
-                <img alt="" src={ProfilePic} />
+                <img alt="" src={JonathanMilgate} />
                 <div className="overlay">
                   <div className="organisers-item-meta">
                     <h5>Jonathan Milgate</h5>
@@ -69,7 +74,7 @@ const Organisers = () => (
           <div className="columns organisers-item">
             <div className="item-wrap">
               <a href="#modal-01" title="">
-                <img alt="" src={ProfilePic} />
+                <img alt="" src={DamianBrady} />
                 <div className="overlay">
                   <div className="organisers-item-meta">
                     <h5>Damian Brady</h5>
@@ -83,7 +88,7 @@ const Organisers = () => (
           <div className="columns organisers-item">
             <div className="item-wrap">
               <a href="#modal-01" title="">
-                <img alt="" src={ProfilePic} />
+                <img alt="" src={LindseyHolmwood} />
                 <div className="overlay">
                   <div className="organisers-item-meta">
                     <h5>Lindsey Holmwood</h5>

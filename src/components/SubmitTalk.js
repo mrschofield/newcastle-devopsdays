@@ -16,21 +16,33 @@ const SubmitTalk = () => (
   <section id="submit">
     <div>
         <h1>
-          <span>Submit a talk</span>
+          <span>Propose a Talk</span>
         </h1>
 
-        <p className="text">
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
-          illo inventore veritatis et quasi architecto beatae vitae dicta sunt
-          explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
-          odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
-          voluptatem sequi nesciunt.
+        <p>
+          There are three ways to propose a topic at DevOpsDays Newcastle: 
         </p>
 
+        <ol>
+          <li>A 30-minute talk presented during the conference, usually in the mornings.</li>
+          <li>An Ignite talk presented during the Ignite sessions (scheduling varies). These are 5 minutes 
+            slots with slides changing every 15 seconds (20 slides total). </li>
+          <li>Open Space: If you’d like to lead a group discussion during the attendee-suggested Open Space 
+            breakout sessions, it is not necessary to propose it ahead of time. Those topics are suggested in 
+            person at the conference. If you’d like to demo your product or service, you should sponsor the event 
+            and demo it at your table.</li>
+        </ol>
+        
         <p>
-        <button>Submit your talk</button>
+          Simply send an email to <a href="mailto:proposals-newcastle-2018@devopsdays.org">proposals-newcastle-2018@devopsdays.org</a> with the 
+          following information; 
         </p>
+
+        <ol>
+          <li>Type (presentation, panel discussion, ignite)</li>
+          <li>Proposal Title (can be changed later)</li>
+          <li>Description (several sentences explaining what attendees will learn)</li>
+        </ol>
       </div>
   </section>
 );

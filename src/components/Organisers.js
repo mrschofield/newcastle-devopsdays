@@ -4,6 +4,7 @@ import { FaUser } from "react-icons/lib/fa";
 import MathewFinch from "../assets/images/mathew_finch.jpeg"
 import KurtGardiner from "../assets/images/kurt_gardiner.jpeg"
 import WayneIngram from "../assets/images/wayne_ingram.jpg"
+import HaileyMartin from "../assets/images/jonathan.jpg"
 import JonathanMilgate from "../assets/images/jonathan.jpg"
 import DamianBrady from "../assets/images/damian_brady.png"
 import LindseyHolmwood from "../assets/images/lindsay_holmwood.jpg"
@@ -14,7 +15,21 @@ const Organisers = () => (
       <div className="twelve columns collapsed">
         <h1>Organisers</h1>
 
-        <div id="organisers-wrapper" className="bgrid-sixths s-bgrid-thirds cf">
+        <div id="organisers-wrapper" className="bgrid-quarters s-bgrid-quarters cf">
+        <div className="columns organisers-item">
+            <div className="item-wrap">
+              <a href="#modal-01" title="">
+                <img alt="" src={DamianBrady} />
+                <div className="overlay">
+                  <div className="organisers-item-meta">
+                    <h5>Damian Brady</h5>
+                    <p>Cloud DevOps Advocate, Microsoft</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+
           <div className="columns organisers-item">
             <div className="item-wrap">
               <a href="#modal-01" title="">
@@ -46,6 +61,20 @@ const Organisers = () => (
           <div className="columns organisers-item">
             <div className="item-wrap">
               <a href="#modal-01" title="">
+                <img alt="" src={LindseyHolmwood} />
+                <div className="overlay">
+                  <div className="organisers-item-meta">
+                    <h5>Lindsey Holmwood</h5>
+                    <p>Active Core DevOps Organiser Group</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>          
+
+          <div className="columns organisers-item">
+            <div className="item-wrap">
+              <a href="#modal-01" title="">
                 <img alt="" src={WayneIngram} />
                 <div className="overlay">
                   <div className="organisers-item-meta">
@@ -60,39 +89,25 @@ const Organisers = () => (
           <div className="columns organisers-item">
             <div className="item-wrap">
               <a href="#modal-01" title="">
+                <img alt="" src={HaileyMartin} />
+                <div className="overlay">
+                  <div className="organisers-item-meta">
+                    <h5>Hailey Martin</h5>
+                    <p>DevOps Engineer</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>          
+
+          <div className="columns organisers-item">
+            <div className="item-wrap">
+              <a href="#modal-01" title="">
                 <img alt="" src={JonathanMilgate} />
                 <div className="overlay">
                   <div className="organisers-item-meta">
                     <h5>Jonathan Milgate</h5>
                     <p>Head of Development, Anditi Pty Ltd</p>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div className="columns organisers-item">
-            <div className="item-wrap">
-              <a href="#modal-01" title="">
-                <img alt="" src={DamianBrady} />
-                <div className="overlay">
-                  <div className="organisers-item-meta">
-                    <h5>Damian Brady</h5>
-                    <p>Cloud DevOps Advocate, Microsoft</p>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div className="columns organisers-item">
-            <div className="item-wrap">
-              <a href="#modal-01" title="">
-                <img alt="" src={LindseyHolmwood} />
-                <div className="overlay">
-                  <div className="organisers-item-meta">
-                    <h5>Lindsey Holmwood</h5>
-                    <p>Active Core DevOps Organiser Group</p>
                   </div>
                 </div>
               </a>

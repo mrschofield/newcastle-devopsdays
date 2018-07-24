@@ -14,6 +14,9 @@ const Footer = () => (
 
         <ul className="copyright small">
           <li>
+            Developed by{" "} Mathew Schofield
+          </li>
+          <li>
             Design by{" "}
             <a title="Styleshout" href="https://www.styleshout.com/">
               Styleshout
@@ -22,9 +25,6 @@ const Footer = () => (
             <li>
             Gatsby starter template by{" "}
             <a href="https://www.amanhimself.me">Aman Mittal</a>
-          </li>
-          <li>
-            Customizations by <a href="https://google.com">Mathew Schofield</a>?
           </li>
         </ul>
      </div>

@@ -20,7 +20,7 @@ const Navigation = () => (
         </a>
       </li>
       <li>
-        <a className="smoothscroll" href="#tickets">
+        <a className="smoothscroll" href="#buy-tickets">
           Tickets
         </a>
       </li>

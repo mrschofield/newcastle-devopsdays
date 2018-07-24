@@ -10,63 +10,35 @@ import Girl from "../assets/images/portfolio/girl.jpg";
 import Origami from "../assets/images/portfolio/origami.jpg";
 import Retrocam from "../assets/images/portfolio/retrocam.jpg";
 
-const Portfolio = () => (
+const Sponsors = () => (
   <section id="sponsors">
+    <h1>Sponsors</h1>
+
     <div className="row">
       <div className="twelve columns collapsed">
-        <h1>Sponsors</h1>
+        <h3>Platinum Sponsors</h3>
 
-        <div
-          id="portfolio-wrapper"
-          className="bgrid-quarters s-bgrid-thirds cf"
-        >
+        <div id="portfolio-wrapper" className="bgrid-quaters s-bgrid-quarters cf">
           <div className="columns portfolio-item">
-            <div className="item-wrap">
+            <div className="item-wrap platinum">
               <a href="#modal-01" title="">
                 <img alt="" src={Coffee} />
-                <div className="overlay">
-                  <div className="portfolio-item-meta">
-                    <h5>Coffee</h5>
-                    <p>Illustrration</p>
-                  </div>
-                </div>
-                <div className="link-icon">
-                  <FaPlus />
-                </div>
               </a>
             </div>
           </div>
 
           <div className="columns portfolio-item">
-            <div className="item-wrap">
+            <div className="item-wrap platinum">
               <a href="#modal-02" title="">
                 <img alt="" src={Console} />
-                <div className="overlay">
-                  <div className="portfolio-item-meta">
-                    <h5>Console</h5>
-                    <p>Web Development</p>
-                  </div>
-                </div>
-                <div className="link-icon">
-                  <FaPlus />
-                </div>
               </a>
             </div>
           </div>
 
           <div className="columns portfolio-item">
-            <div className="item-wrap">
+            <div className="item-wrap platinum">
               <a href="#modal-02" title="">
                 <img alt="" src={Console} />
-                <div className="overlay">
-                  <div className="portfolio-item-meta">
-                    <h5>Console</h5>
-                    <p>Web Development</p>
-                  </div>
-                </div>
-                <div className="link-icon">
-                  <FaPlus />
-                </div>
               </a>
             </div>
           </div>
@@ -76,94 +48,46 @@ const Portfolio = () => (
 
 
     <div className="row">
-      <div className="twelve columns collapsed">
+      <div className="columns">
         <h3>Gold Sponsors</h3>
 
-        <div
-          id="portfolio-wrapper"
-          className="bgrid-quarters s-bgrid-thirds cf"
-        >
+        <div id="portfolio-wrapper" className="bgrid-quaters s-bgrid-quarters cf">
           <div className="columns portfolio-item">
-            <div className="item-wrap">
+            <div className="item-wrap gold">
               <a href="#modal-01" title="">
                 <img alt="" src={Coffee} />
-                <div className="overlay">
-                  <div className="portfolio-item-meta">
-                    <h5>Coffee</h5>
-                    <p>Illustrration</p>
-                  </div>
-                </div>
-                <div className="link-icon">
-                  <FaPlus />
-                </div>
               </a>
             </div>
           </div>
 
           <div className="columns portfolio-item">
-            <div className="item-wrap">
+            <div className="item-wrap gold">
               <a href="#modal-02" title="">
                 <img alt="" src={Console} />
-                <div className="overlay">
-                  <div className="portfolio-item-meta">
-                    <h5>Console</h5>
-                    <p>Web Development</p>
-                  </div>
-                </div>
-                <div className="link-icon">
-                  <FaPlus />
-                </div>
               </a>
             </div>
           </div>
 
           <div className="columns portfolio-item">
-            <div className="item-wrap">
+            <div className="item-wrap gold">
               <a href="#modal-02" title="">
                 <img alt="" src={Console} />
-                <div className="overlay">
-                  <div className="portfolio-item-meta">
-                    <h5>Console</h5>
-                    <p>Web Development</p>
-                  </div>
-                </div>
-                <div className="link-icon">
-                  <FaPlus />
-                </div>
               </a>
             </div>
           </div>
 
           <div className="columns portfolio-item">
-            <div className="item-wrap">
+            <div className="item-wrap gold">
               <a href="#modal-02" title="">
                 <img alt="" src={Console} />
-                <div className="overlay">
-                  <div className="portfolio-item-meta">
-                    <h5>Console</h5>
-                    <p>Web Development</p>
-                  </div>
-                </div>
-                <div className="link-icon">
-                  <FaPlus />
-                </div>
               </a>
             </div>
           </div>
 
           <div className="columns portfolio-item">
-            <div className="item-wrap">
+            <div className="item-wrap gold">
               <a href="#modal-02" title="">
                 <img alt="" src={Console} />
-                <div className="overlay">
-                  <div className="portfolio-item-meta">
-                    <h5>Console</h5>
-                    <p>Web Development</p>
-                  </div>
-                </div>
-                <div className="link-icon">
-                  <FaPlus />
-                </div>
               </a>
             </div>
           </div>
@@ -172,94 +96,46 @@ const Portfolio = () => (
     </div>
 
     <div className="row">
-      <div className="twelve columns collapsed">
+      <div className="columns">
         <h3>Silver Sponsors</h3>
 
-        <div
-          id="portfolio-wrapper"
-          className="bgrid-quarters s-bgrid-thirds cf"
-        >
+        <div id="portfolio-wrapper" className="bgrid-quaters s-bgrid-quarters cf">
           <div className="columns portfolio-item">
-            <div className="item-wrap">
+            <div className="item-wrap silver">
               <a href="#modal-01" title="">
                 <img alt="" src={Coffee} />
-                <div className="overlay">
-                  <div className="portfolio-item-meta">
-                    <h5>Coffee</h5>
-                    <p>Illustrration</p>
-                  </div>
-                </div>
-                <div className="link-icon">
-                  <FaPlus />
-                </div>
               </a>
             </div>
           </div>
 
           <div className="columns portfolio-item">
-            <div className="item-wrap">
+            <div className="item-wrap silver">
               <a href="#modal-02" title="">
                 <img alt="" src={Console} />
-                <div className="overlay">
-                  <div className="portfolio-item-meta">
-                    <h5>Console</h5>
-                    <p>Web Development</p>
-                  </div>
-                </div>
-                <div className="link-icon">
-                  <FaPlus />
-                </div>
               </a>
             </div>
           </div>
 
           <div className="columns portfolio-item">
-            <div className="item-wrap">
+            <div className="item-wrap silver">
               <a href="#modal-02" title="">
                 <img alt="" src={Console} />
-                <div className="overlay">
-                  <div className="portfolio-item-meta">
-                    <h5>Console</h5>
-                    <p>Web Development</p>
-                  </div>
-                </div>
-                <div className="link-icon">
-                  <FaPlus />
-                </div>
               </a>
             </div>
           </div>
 
           <div className="columns portfolio-item">
-            <div className="item-wrap">
+            <div className="item-wrap silver">
               <a href="#modal-02" title="">
                 <img alt="" src={Console} />
-                <div className="overlay">
-                  <div className="portfolio-item-meta">
-                    <h5>Console</h5>
-                    <p>Web Development</p>
-                  </div>
-                </div>
-                <div className="link-icon">
-                  <FaPlus />
-                </div>
               </a>
             </div>
           </div>
 
           <div className="columns portfolio-item">
-            <div className="item-wrap">
+            <div className="item-wrap silver">
               <a href="#modal-02" title="">
                 <img alt="" src={Console} />
-                <div className="overlay">
-                  <div className="portfolio-item-meta">
-                    <h5>Console</h5>
-                    <p>Web Development</p>
-                  </div>
-                </div>
-                <div className="link-icon">
-                  <FaPlus />
-                </div>
               </a>
             </div>
           </div>
@@ -268,94 +144,38 @@ const Portfolio = () => (
     </div>
 
     <div className="row">
-      <div className="twelve columns collapsed">
+      <div className="columns collapsed">
         <h3>Bronze Sponsors</h3>
 
-        <div
-          id="portfolio-wrapper"
-          className="bgrid-quarters s-bgrid-thirds cf"
-        >
+        <div id="portfolio-wrapper" className="bgrid-quaters s-bgrid-quarters cf">
           <div className="columns portfolio-item">
-            <div className="item-wrap">
+            <div className="item-wrap bronze">
               <a href="#modal-01" title="">
                 <img alt="" src={Coffee} />
-                <div className="overlay">
-                  <div className="portfolio-item-meta">
-                    <h5>Coffee</h5>
-                    <p>Illustrration</p>
-                  </div>
-                </div>
-                <div className="link-icon">
-                  <FaPlus />
-                </div>
               </a>
             </div>
           </div>
 
           <div className="columns portfolio-item">
-            <div className="item-wrap">
+            <div className="item-wrap bronze">
               <a href="#modal-02" title="">
                 <img alt="" src={Console} />
-                <div className="overlay">
-                  <div className="portfolio-item-meta">
-                    <h5>Console</h5>
-                    <p>Web Development</p>
-                  </div>
-                </div>
-                <div className="link-icon">
-                  <FaPlus />
-                </div>
               </a>
             </div>
           </div>
 
           <div className="columns portfolio-item">
-            <div className="item-wrap">
+            <div className="item-wrap bronze">
               <a href="#modal-02" title="">
                 <img alt="" src={Console} />
-                <div className="overlay">
-                  <div className="portfolio-item-meta">
-                    <h5>Console</h5>
-                    <p>Web Development</p>
-                  </div>
-                </div>
-                <div className="link-icon">
-                  <FaPlus />
-                </div>
               </a>
             </div>
           </div>
 
           <div className="columns portfolio-item">
-            <div className="item-wrap">
+            <div className="item-wrap bronze">
               <a href="#modal-02" title="">
                 <img alt="" src={Console} />
-                <div className="overlay">
-                  <div className="portfolio-item-meta">
-                    <h5>Console</h5>
-                    <p>Web Development</p>
-                  </div>
-                </div>
-                <div className="link-icon">
-                  <FaPlus />
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <div className="columns portfolio-item">
-            <div className="item-wrap">
-              <a href="#modal-02" title="">
-                <img alt="" src={Console} />
-                <div className="overlay">
-                  <div className="portfolio-item-meta">
-                    <h5>Console</h5>
-                    <p>Web Development</p>
-                  </div>
-                </div>
-                <div className="link-icon">
-                  <FaPlus />
-                </div>
               </a>
             </div>
           </div>
@@ -365,4 +185,4 @@ const Portfolio = () => (
   </section>
 );
 
-export default Portfolio;
+export default Sponsors;

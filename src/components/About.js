@@ -2,12 +2,13 @@ import React from "react";
 import { FaCloudDownload } from "react-icons/lib/fa";
 
 import profilePic from "../assets/images/code.png";
+import logo from "../assets/images/logo.jpg";
 
 const About = () => (
   <section id="about">
     <div className="row">
       <div className="three columns">
-        <img className="profile-pic" src={profilePic} alt="" />
+        <img src={logo} alt="" />
       </div>
       <div className="nine columns main-col">
         <h2>About DevOpsDays</h2>

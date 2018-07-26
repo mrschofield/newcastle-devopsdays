@@ -839,7 +839,7 @@ body {
 header {
   position: relative;
   height: 800px;
-  min-height: 500px;
+  min-height: 100vh;
   width: 100%;
   background: #161415 url(../images/header-background.jpg) no-repeat top center;
   background-size: cover !important;
@@ -1019,6 +1019,7 @@ ul#nav li.current a {
   padding-top: 96px;
   padding-bottom: 66px;
   overflow: hidden;
+  min-height: 100vh;
 }
 
 #about a,

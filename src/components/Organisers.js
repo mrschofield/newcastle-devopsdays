@@ -4,7 +4,7 @@ import { FaUser } from "react-icons/lib/fa";
 import MathewFinch from "../assets/images/mathew_finch.jpeg"
 import KurtGardiner from "../assets/images/kurt_gardiner.jpeg"
 import WayneIngram from "../assets/images/wayne_ingram.jpg"
-import HaileyMartin from "../assets/images/jonathan.jpg"
+import HaileyMartin from "../assets/images/hailey_martin.jpg"
 import JonathanMilgate from "../assets/images/jonathan.jpg"
 import DamianBrady from "../assets/images/damian_brady.png"
 import LindseyHolmwood from "../assets/images/lindsay_holmwood.jpg"

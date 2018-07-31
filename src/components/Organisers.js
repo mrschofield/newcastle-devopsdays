@@ -37,7 +37,7 @@ const Organisers = () => (
                 <div className="overlay">
                   <div className="organisers-item-meta">
                     <h5>Mathew Finch</h5>
-                    <p>Head of Emerging Technology, NIB Health Funds</p>
+                    <p>Head of Emerging Technology at nib health funds</p>
                   </div>
                 </div>
               </a>
@@ -51,7 +51,7 @@ const Organisers = () => (
                 <div className="overlay">
                   <div className="organisers-item-meta">
                     <h5>Kurt Gardiner</h5>
-                    <p>DevOps Lead, NIB Health Funds</p>
+                    <p>DevOps Lead at nib health funds</p>
                   </div>
                 </div>
               </a>
@@ -70,7 +70,7 @@ const Organisers = () => (
                 </div>
               </a>
             </div>
-          </div>          
+          </div>
 
           <div className="columns organisers-item">
             <div className="item-wrap">
@@ -93,12 +93,12 @@ const Organisers = () => (
                 <div className="overlay">
                   <div className="organisers-item-meta">
                     <h5>Hailey Martin</h5>
-                    <p>DevOps Engineer</p>
+                    <p>DevOps Engineer at nib health funds</p>
                   </div>
                 </div>
               </a>
             </div>
-          </div>          
+          </div>
 
           <div className="columns organisers-item">
             <div className="item-wrap">

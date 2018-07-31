@@ -1,5 +1,6 @@
 import React from "react";
 import { FaCloudDownload } from "react-icons/lib/fa";
+import Link from "gatsby-link";
 
 import profilePic from "../assets/images/code.png";
 import logo from "../assets/images/DevOpsNewy_WHITE_TALL.png";
@@ -8,7 +9,7 @@ const About = () => (
   <section id="about">
     <div className="row">
       <div className="three columns">
-        <img src={logo} alt="" />
+        <img src={logo} alt="DevOps Days Newy Logo" />
       </div>
       <div className="nine columns main-col">
         <h2>About DevOpsDays</h2>
@@ -26,7 +27,7 @@ const About = () => (
         <p>
           Respect and empathy are core devops values. Devopsdays is dedicated to providing an environment where everyone in the
           devops community can learn and share in respectful, considerate collaboration. The event operates under a code of conduct
-          available here: <a href="https://www.devopsdays.org/conduct/">https://www.devopsdays.org/conduct/</a>
+          available <Link to='conduct'>here</Link>.
         </p>
         <p>This is the first time Devopsdays will be held 'regionally' within Australia. Newcastle, the seaside city, sitting
           majestically where the ocean meets our working international port. Our city snakes around the coastline with golden

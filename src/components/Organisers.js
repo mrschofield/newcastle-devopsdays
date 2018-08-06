@@ -1,5 +1,9 @@
 import React from "react";
-import { FaUser } from "react-icons/lib/fa";
+import {
+  FaUser,
+  FaEnvelope
+} from "react-icons/lib/fa";
+// https://gorangajic.github.io/react-icons/fa.html
 
 import MathewFinch from "../assets/images/mathew_finch.jpeg"
 import KurtGardiner from "../assets/images/kurt_gardiner.jpeg"
@@ -15,6 +19,14 @@ const Organisers = () => (
       <div className="twelve columns collapsed">
         <h1>Organisers</h1>
 
+        <div>
+          <p>
+            Contact us by email
+            <a href="mailto:organizers-newcastle-2018@devopsdays.org">
+              &nbsp;<FaEnvelope /> organizers-newcastle-2018@devopsdays.org
+            </a>
+          </p>
+        </div>
         <div id="organisers-wrapper" className="bgrid-quarters s-bgrid-quarters cf">
         <div className="columns organisers-item">
             <div className="item-wrap">

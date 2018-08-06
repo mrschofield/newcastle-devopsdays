@@ -18,6 +18,20 @@ const Where = () => (
           <a href="https://www.thenex.com.au/visit-newcastle"><img src="https://www.thenex.com.au/assets/Newcastle_Map.jpg" /></a>
         </p>
       </div>
+
+      <div className="twelve columns collapsed">
+        <h1>Getting here</h1>
+      </div>
+
+      <div className="text">
+        <p>
+            Flights to Newcastle runs direct from Brisbane, Sydney, Melbourne, Canberra, Gold Coast and Byron Bay. Newcastle Train Station has trains running from Sydney, Brisbane, Scone, and Muswellbrook via Cityrail and Countrylink services.
+        </p>
+        <p>
+          For more information about getting to and staying in Newcastle check out <a href='https://www.visitnewcastle.com.au/'>www.visitnewcastle.com.au</a>
+        </p>
+      </div>
+
     </div>
   </section>
 );

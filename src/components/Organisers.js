@@ -27,7 +27,7 @@ const Organisers = () => (
             </a>
           </p>
         </div>
-        <div id="organisers-wrapper" className="bgrid-quarters s-bgrid-quarters cf">
+        <div id="organisers-wrapper" className="bgrid-eighths s-bgrid-eighths cf">
         <div className="columns organisers-item">
             <div className="item-wrap">
               <a href="#modal-01" title="">

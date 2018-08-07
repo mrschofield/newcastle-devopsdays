@@ -46,37 +46,52 @@ const Sponsors = () => (
           </div>
         </div>
       </div>
-    </div>
 
 
-    <div className="row">
-      <div className="twelve columns collapsed">
-        <h3>Gold Sponsors</h3>
+      <hr/>
+      <div className="row">
+        <div className="twelve columns collapsed">
+          <h3>Gold Sponsors</h3>
 
-        <div id="portfolio-wrapper" className="bgrid-quaters s-bgrid-quarters cf">
-          <div className="columns portfolio-item">
+          <div id="portfolio-wrapper" className="bgrid-quaters s-bgrid-quarters cf">
+            <div className="columns portfolio-item">
+            </div>
           </div>
         </div>
       </div>
-    </div>
 
-    <div className="row">
-      <div className="twelve columns collapsed">
-        <h3>Silver Sponsors</h3>
+      <hr/>
+      <div className="row">
+        <div className="twelve columns collapsed">
+          <h3>Silver Sponsors</h3>
 
-        <div id="portfolio-wrapper" className="bgrid-quaters s-bgrid-quarters cf">
-          <div className="columns portfolio-item">
+          <div id="portfolio-wrapper" className="bgrid-quaters s-bgrid-quarters cf">
+            <div className="columns portfolio-item">
+            </div>
           </div>
         </div>
       </div>
-    </div>
 
-    <div className="row">
-      <div className="twelve columns collapsed">
-        <h3>Bronze Sponsors</h3>
+      <hr/>
+      <div className="row">
+        <div className="twelve columns collapsed">
+          <h3>Bronze Sponsors</h3>
 
-        <div id="portfolio-wrapper" className="bgrid-quaters s-bgrid-quarters cf">
-          <div className="columns portfolio-item">
+          <div id="portfolio-wrapper" className="bgrid-quaters s-bgrid-quarters cf">
+            <div className="columns portfolio-item">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr/>
+      <div className="row">
+        <div className="twelve columns collapsed">
+          <h3>Community Sponsors</h3>
+
+          <div id="portfolio-wrapper" className="bgrid-quaters s-bgrid-quarters cf">
+            <div className="columns portfolio-item">
+            </div>
           </div>
         </div>
       </div>

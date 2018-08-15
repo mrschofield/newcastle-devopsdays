@@ -2,12 +2,8 @@ import React from "react";
 import { FaPlus, FaTag } from "react-icons/lib/fa";
 
 import Nib from "../assets/images/nib.png";
-
-            // <div className="item-wrap platinum">
-            //   <a href="https://www.nib.com.au/" title="">
-            //     <img alt="" src={Nib} />
-            //   </a>
-            // </div>
+import CmdSolutions from "../assets/images/cmd.jpg";
+import Assemblient from "../assets/images/assemblient.png";
 
 const Sponsors = () => (
   <section id="sponsors">
@@ -41,7 +37,7 @@ const Sponsors = () => (
       <div className="twelve columns collapsed">
         <h3>Platinum Sponsors</h3>
 
-        <div id="portfolio-wrapper" className="bgrid-quaters s-bgrid-quarters cf">
+        <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-quarters cf">
           <div className="columns portfolio-item">
           </div>
         </div>
@@ -53,7 +49,7 @@ const Sponsors = () => (
         <div className="twelve columns collapsed">
           <h3>Gold Sponsors</h3>
 
-          <div id="portfolio-wrapper" className="bgrid-quaters s-bgrid-quarters cf">
+          <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-quarters cf">
             <div className="columns portfolio-item">
             </div>
           </div>
@@ -65,8 +61,13 @@ const Sponsors = () => (
         <div className="twelve columns collapsed">
           <h3>Silver Sponsors</h3>
 
-          <div id="portfolio-wrapper" className="bgrid-quaters s-bgrid-quarters cf">
-            <div className="columns portfolio-item">
+          <div id="portfolio-wrapper" className="cf align-center">
+            <div className="column portfolio-item">
+              <div className="item-wrap silver">
+                <a href="http://www.cmdsolutions.com.au/" title="CMD Solutions">
+                  <img alt="CMD Solutions" src={CmdSolutions} />
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -77,10 +78,13 @@ const Sponsors = () => (
         <div className="twelve columns collapsed">
           <h3>Bronze Sponsors</h3>
 
-          <div id="portfolio-wrapper" className="bgrid-quaters s-bgrid-quarters cf">
-            <div className="columns portfolio-item">
+            <div className="column portfolio-item">
+              <div className="item-wrap silver">
+                <a href="http://www.assemblient.com/" title="Assemblient">
+                  <img alt="Assemblient" src={Assemblient} />
+                </a>
+              </div>
             </div>
-          </div>
         </div>
       </div>
 
@@ -89,7 +93,7 @@ const Sponsors = () => (
         <div className="twelve columns collapsed">
           <h3>Community Sponsors</h3>
 
-          <div id="portfolio-wrapper" className="bgrid-quaters s-bgrid-quarters cf">
+          <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-quarters cf">
             <div className="columns portfolio-item">
             </div>
           </div>

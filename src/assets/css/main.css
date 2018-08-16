@@ -1573,6 +1573,8 @@ ul#nav li.current a {
   overflow: hidden;
   position: relative;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;

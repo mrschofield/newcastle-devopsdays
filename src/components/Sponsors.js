@@ -62,7 +62,7 @@ const Sponsors = () => (
           <h3>Silver Sponsors</h3>
 
           <div id="portfolio-wrapper" className="cf align-center">
-            <div className="column portfolio-item">
+            <div className="portfolio-item">
               <div className="item-wrap silver">
                 <a href="http://www.cmdsolutions.com.au/" title="CMD Solutions">
                   <img alt="CMD Solutions" src={CmdSolutions} />
@@ -78,7 +78,7 @@ const Sponsors = () => (
         <div className="twelve columns collapsed">
           <h3>Bronze Sponsors</h3>
 
-            <div className="column portfolio-item">
+            <div className="portfolio-item">
               <div className="item-wrap silver">
                 <a href="http://www.assemblient.com/" title="Assemblient">
                   <img alt="Assemblient" src={Assemblient} />

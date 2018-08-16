@@ -11,7 +11,7 @@ import WayneIngram from "../assets/images/wayne_ingram.jpg"
 import HaileyMartin from "../assets/images/hailey_martin.jpg"
 import JonathanMilgate from "../assets/images/jonathan.jpg"
 import DamianBrady from "../assets/images/damian_brady.png"
-import LindseyHolmwood from "../assets/images/lindsay_holmwood.jpg"
+import LindsayHolmwood from "../assets/images/lindsay_holmwood.jpg"
 
 const Organisers = () => (
   <section id="organisers">
@@ -30,7 +30,7 @@ const Organisers = () => (
         <div id="organisers-wrapper" className="bgrid-eighths s-bgrid-eighths cf">
         <div className="columns organisers-item">
             <div className="item-wrap">
-              <a href="#modal-01" title="">
+              <a href="https://www.twitter.com/damovisa" title="Damian Brady">
                 <img alt="" src={DamianBrady} />
                 <div className="overlay">
                   <div className="organisers-item-meta">
@@ -44,7 +44,7 @@ const Organisers = () => (
 
           <div className="columns organisers-item">
             <div className="item-wrap">
-              <a href="#modal-01" title="">
+              <a href="https://www.twitter.com/Finchster" title="Mathew Finch">
                 <img alt="" src={MathewFinch} />
                 <div className="overlay">
                   <div className="organisers-item-meta">
@@ -58,7 +58,7 @@ const Organisers = () => (
 
           <div className="columns organisers-item">
             <div className="item-wrap">
-              <a href="#modal-01" title="">
+              <a href="https://www.twitter.com/krutisfood" title="Kurt Gardiner">
                 <img alt="" src={KurtGardiner} />
                 <div className="overlay">
                   <div className="organisers-item-meta">
@@ -72,12 +72,12 @@ const Organisers = () => (
 
           <div className="columns organisers-item">
             <div className="item-wrap">
-              <a href="#modal-01" title="">
-                <img alt="" src={LindseyHolmwood} />
+              <a href="https://www.twitter.com/auxesis" title="Lindsay Holmwood">
+                <img alt="Lindsay Holmwood" src={LindsayHolmwood} />
                 <div className="overlay">
                   <div className="organisers-item-meta">
-                    <h5>Lindsey Holmwood</h5>
-                    <p>Active Core DevOps Organiser Group</p>
+                    <h5>Lindsay Holmwood</h5>
+                    <p>Core DevOps Organiser Group</p>
                   </div>
                 </div>
               </a>
@@ -86,8 +86,8 @@ const Organisers = () => (
 
           <div className="columns organisers-item">
             <div className="item-wrap">
-              <a href="#modal-01" title="">
-                <img alt="" src={WayneIngram} />
+              <a href="https://www.twitter.com/opticpow" title="Wayne Ingram">
+                <img alt="Wayne Ingram" src={WayneIngram} />
                 <div className="overlay">
                   <div className="organisers-item-meta">
                     <h5>Wayne Ingram</h5>
@@ -100,8 +100,8 @@ const Organisers = () => (
 
           <div className="columns organisers-item">
             <div className="item-wrap">
-              <a href="#modal-01" title="">
-                <img alt="" src={HaileyMartin} />
+              <a href="https://www.twitter.com/konecoffee" title="Hailey Martin">
+                <img alt="Hailey Martin" src={HaileyMartin} />
                 <div className="overlay">
                   <div className="organisers-item-meta">
                     <h5>Hailey Martin</h5>
@@ -114,8 +114,8 @@ const Organisers = () => (
 
           <div className="columns organisers-item">
             <div className="item-wrap">
-              <a href="#modal-01" title="">
-                <img alt="" src={JonathanMilgate} />
+              <a href="https://www.twitter.com/This_is_Dog" title="Jonathan Milgate">
+                <img alt="Jonathan Milgate" src={JonathanMilgate} />
                 <div className="overlay">
                   <div className="organisers-item-meta">
                     <h5>Jonathan Milgate</h5>

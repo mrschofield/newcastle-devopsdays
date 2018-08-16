@@ -1564,12 +1564,17 @@ ul#nav li.current a {
 /* Portfolio Content */
 #portfolio-wrapper .columns {
   margin-bottom: 36px;
+  display: inline-block;
+  float: none;
 }
+
 .portfolio-item .item-wrap {
   background: #fff;
   overflow: hidden;
   position: relative;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -1577,24 +1582,26 @@ ul#nav li.current a {
   -ms-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
+
 .portfolio-item img {
  width: 100%;
  height: 100%;
 }
+
 .platinum {
-  width: 175px;
+  width: 180px;
 }
 
 .gold {
-  width: 125px;
+  width: 180px;
 }
 
 .silver {
-  width: 100px;
+  width: 180px;
 }
 
 .bronze {
-  width: 50px;
+  width: 180px;
 }
 
 .portfolio-item .item-wrap a {

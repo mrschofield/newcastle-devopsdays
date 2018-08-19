@@ -155,7 +155,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
    color: #313131;
-	font-family: 'opensans-bold', sans-serif;
+   font-family: 'opensans-bold', sans-serif;
    font-weight: normal;
 }
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
@@ -1319,6 +1319,7 @@ ul#nav li.current a {
   text-align: center;
   margin-bottom: 48px;
   color: #111111;
+  font-weight: bold;
 }
 #sponsors h3 {
   font: 18px/21px "opensans-semibold", sans-serif;
@@ -1344,6 +1345,7 @@ ul#nav li.current a {
   text-align: center;
   margin-bottom: 48px;
   color: #111111;
+  font-weight: bold;
 }
 /* Portfolio Content */
 #organisers-wrapper .columns {
@@ -1413,14 +1415,14 @@ ul#nav li.current a {
   vertical-align: bottom;
 }
 .organisers-item .organisers-item-meta {
-  padding: 18px;
+  padding: 8px;
 }
 .organisers-item .organisers-item-meta h5 {
-  font: 14px/21px "opensans-bold", sans-serif;
+  font: 12px/16px "opensans-bold", sans-serif;
   color: #fff;
 }
 .organisers-item .organisers-item-meta p {
-  font: 12px/18px "opensans-light", sans-serif;
+  font: 10px/14px "opensans-light", sans-serif;
   color: #c6c7c7;
   margin-bottom: 0;
 }
@@ -1451,12 +1453,13 @@ ul#nav li.current a {
 }
 
 #buy-tickets h1 {
-  font: 22px/24px "opensans-semibold", sans-serif;
+  font: 22px/24px "opensans-bold", sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
   text-align: center;
   margin-bottom: 48px;
   color: #95a3a3;
+  font-weight: bold;
 }
 
 #where {
@@ -1471,6 +1474,7 @@ ul#nav li.current a {
   text-align: center;
   margin-bottom: 48px;
   color: #95a3a3;
+  font-weight: bold;
 }
 
 #submit::before {
@@ -1529,6 +1533,7 @@ ul#nav li.current a {
   text-align: center;
   margin-bottom: 48px;
   color: #e3e3e3;
+  font-weight: bold;
 }
 
 #submit .centered {
@@ -1553,17 +1558,23 @@ ul#nav li.current a {
   text-align: center;
   margin-bottom: 48px;
   color: #95a3a3;
+  font-weight: bold;
 }
 
 /* Portfolio Content */
 #portfolio-wrapper .columns {
   margin-bottom: 36px;
+  display: inline-block;
+  float: none;
 }
+
 .portfolio-item .item-wrap {
   background: #fff;
   overflow: hidden;
   position: relative;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -1571,24 +1582,26 @@ ul#nav li.current a {
   -ms-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
+
 .portfolio-item img {
  width: 100%;
  height: 100%;
 }
+
 .platinum {
-  width: 175px;
+  width: 180px;
 }
 
 .gold {
-  width: 125px;
+  width: 180px;
 }
 
 .silver {
-  width: 100px;
+  width: 180px;
 }
 
 .bronze {
-  width: 50px;
+  width: 180px;
 }
 
 .portfolio-item .item-wrap a {

@@ -5,13 +5,13 @@ import {
 } from "react-icons/lib/fa";
 // https://gorangajic.github.io/react-icons/fa.html
 
-import MathewFinch from "../assets/images/mathew_finch.jpeg"
-import KurtGardiner from "../assets/images/kurt_gardiner.jpeg"
-import WayneIngram from "../assets/images/wayne_ingram.jpg"
-import HaileyMartin from "../assets/images/hailey_martin.jpg"
+import MathewFinch from "../assets/images/mathew.jpg"
+import KurtGardiner from "../assets/images/kurt.jpg"
+import WayneIngram from "../assets/images/wayne.jpg"
+import HaileyMartin from "../assets/images/hailey.jpg"
 import JonathanMilgate from "../assets/images/jonathan.jpg"
-import DamianBrady from "../assets/images/damian_brady.png"
-import LindsayHolmwood from "../assets/images/lindsay_holmwood.jpg"
+import DamianBrady from "../assets/images/damian.jpg"
+import LindsayHolmwood from "../assets/images/lindsay.jpg"
 
 const Organisers = () => (
   <section id="organisers">

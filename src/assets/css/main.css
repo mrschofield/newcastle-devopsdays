@@ -841,7 +841,7 @@ header {
   height: 800px;
   min-height: 100vh;
   width: 100%;
-  background: #161415 url(../images/header-background.jpg) no-repeat top center;
+  background: #161415 url(../images/devopsdaysnewy-hero.jpg) no-repeat top center;
   background-size: cover !important;
   -webkit-background-size: cover !important;
   text-align: center;
@@ -1486,7 +1486,7 @@ ul#nav li.current a {
   height: 100%;
   opacity: .4;
   z-index: -1;
-  background: #fff url(../images/white-board.png) no-repeat top center;
+  background: #fff url(../images/devopsdaysnewy-whiteboard.jpg) no-repeat top center;
   background-size: cover !important;
   -webkit-background-size: cover !important;
 }

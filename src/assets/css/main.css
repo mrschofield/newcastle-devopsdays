@@ -1477,6 +1477,43 @@ ul#nav li.current a {
   font-weight: bold;
 }
 
+#agenda {
+  background: #ebeeee;
+  padding: 60px;
+}
+
+#agenda h1 {
+  font: 22px/24px "opensans-semibold", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-bottom: 48px;
+  color: #95a3a3;
+  font-weight: bold;
+}
+
+#agenda-timeline {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#agenda-timeline-left {
+  width: auto;
+  padding-right: 80px;
+}
+
+#agenda-timeline-right {
+  padding-bottom: 50px;
+  border-left: 5px solid black;
+  padding-left: 80px;
+  position: relative;
+}
+
+#agenda-timeline .timeline-header {
+  text-transform: uppercase;
+}
+
 #submit::before {
   content: "x";
   position: absolute;
@@ -2306,6 +2343,15 @@ footer .social li:first-child {
 /* screenwidth less than 900px
 --------------------------------------------------------------------- */
 @media only screen and (max-width: 900px) {
+
+  #agenda-timeline div {
+    flex-direction: column;
+  }
+
+  #agenda-timeline-left div {
+    min-width: 0;
+    width: 100%;
+  }
 
   /* header styles
  ------------------------------------------------------------------ */

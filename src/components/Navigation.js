@@ -30,6 +30,11 @@ const Navigation = () => (
         </a>
       </li>
       <li>
+        <a className="smoothscroll" href="/#agenda">
+          Agenda
+        </a>
+      </li>
+      <li>
         <a className="smoothscroll" href="/#sponsors">
           Sponsors
         </a>

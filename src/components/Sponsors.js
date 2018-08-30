@@ -5,6 +5,8 @@ import Nib from "../assets/images/logo-nib.png";
 import CmdSolutions from "../assets/images/logo-cmd.jpg";
 import Assemblient from "../assets/images/logo-assemblient.png";
 import Mudbath from "../assets/images/logo-mudbath.png";
+import REA from "../assets/images/logo-rea.png";
+import Hays from "../assets/images/logo-hays.png";
 
 const Sponsors = () => (
   <section id="sponsors">
@@ -54,6 +56,16 @@ const Sponsors = () => (
             <div className="columns portfolio-item">
             </div>
           </div>
+
+          <div id="portfolio-wrapper" className="cf align-center">
+            <div className="portfolio-item">
+              <div className="item-wrap silver">
+                <a href="http://www.realestate.com.au" title="REA">
+                  <img alt="real estate australia" src={REA} />
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -67,6 +79,16 @@ const Sponsors = () => (
               <div className="item-wrap silver">
                 <a href="http://www.cmdsolutions.com.au/" title="CMD Solutions">
                   <img alt="CMD Solutions" src={CmdSolutions} />
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div id="portfolio-wrapper" className="cf align-center">
+            <div className="portfolio-item">
+              <div className="item-wrap silver">
+                <a href="http://www.hays" title="Hays">
+                  <img alt="Hays" src={Hays} />
                 </a>
               </div>
             </div>

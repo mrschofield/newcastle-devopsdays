@@ -1577,6 +1577,9 @@ ul#nav li.current a {
   text-align: center;
 }
 
+#submit .hidden {
+  display: none;
+}
 
 /* ------------------------------------------------------------------ */
 /* e. Portfolio Section

@@ -21,10 +21,14 @@ const Footer = () => (
             <a title="Styleshout" href="https://www.styleshout.com/">
               Styleshout
             </a>
-            </li>
-            <li>
+          </li>
+          <li>
             Gatsby starter template by{" "}
             <a href="https://www.amanhimself.me">Aman Mittal</a>
+          </li>
+          <li>
+            Logo by{" "}
+            <a href="http://www.sophieelinor.com">Sophie Elinor</a>
           </li>
         </ul>
      </div>

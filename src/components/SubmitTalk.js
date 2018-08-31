@@ -11,7 +11,7 @@ import Girl from "../assets/images/portfolio/girl.jpg";
 import Origami from "../assets/images/portfolio/origami.jpg";
 import Retrocam from "../assets/images/portfolio/retrocam.jpg";
 
-import whiteBoard from "../assets/images/white-board.png";
+import whiteBoard from "../assets/images/devopsdaysnewy-whiteboard.jpg";
 
 const SubmitTalk = () => (
   <section id="submit">

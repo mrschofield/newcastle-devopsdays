@@ -5,7 +5,7 @@ const BuyTickets = () => (
   <section id="buy-tickets">
     <div className="row">
       <div className="twelve columns collapsed">
-        <h1>Buy Tickets</h1>
+        <h1>Buy Tickets - $99</h1>
       </div>
 
       <div className="text">

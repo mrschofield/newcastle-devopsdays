@@ -11,6 +11,9 @@ const Banner = () => (
       </h3>
       <hr />
       <SocialLinks />
+      <p className="centered">
+        <a href="https://ti.to/devopsaustralia/devopsdays-newcastle-2018"><button>Buy Tickets</button></a>
+      </p>
     </div>
   </div>
 );

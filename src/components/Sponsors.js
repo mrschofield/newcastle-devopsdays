@@ -52,16 +52,11 @@ const Sponsors = () => (
         <div className="twelve columns collapsed">
           <h3>Gold Sponsors</h3>
 
-          <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-quarters cf">
-            <div className="columns portfolio-item">
-            </div>
-          </div>
-
           <div id="portfolio-wrapper" className="cf align-center">
-            <div className="portfolio-item">
-              <div className="item-wrap silver">
-                <a href="http://www.realestate.com.au" title="REA">
-                  <img alt="real estate australia" src={REA} />
+            <div className="columns portfolio-item">
+              <div className="item-wrap gold">
+                <a href="https://www.rea-group.com" title="rea group">
+                  <img alt="rea group" src={REA} />
                 </a>
               </div>
             </div>
@@ -75,20 +70,18 @@ const Sponsors = () => (
           <h3>Silver Sponsors</h3>
 
           <div id="portfolio-wrapper" className="cf align-center">
-            <div className="portfolio-item">
+            <div className="columns portfolio-item">
               <div className="item-wrap silver">
                 <a href="http://www.cmdsolutions.com.au/" title="CMD Solutions">
                   <img alt="CMD Solutions" src={CmdSolutions} />
                 </a>
               </div>
             </div>
-          </div>
 
-          <div id="portfolio-wrapper" className="cf align-center">
-            <div className="portfolio-item">
+            <div className="columns portfolio-item">
               <div className="item-wrap silver">
-                <a href="http://www.hays" title="Hays">
-                  <img alt="Hays" src={Hays} />
+                <a href="https://www.hays.com.au/digital-technology" title="Hays">
+                  <img alt="Hays Digital Technology" src={Hays} />
                 </a>
               </div>
             </div>
@@ -101,7 +94,8 @@ const Sponsors = () => (
         <div className="twelve columns collapsed">
           <h3>Bronze Sponsors</h3>
 
-            <div className="columns portfolio-item offset-3">
+          <div id="portfolio-wrapper" className="cf align-center">
+            <div className="columns portfolio-item">
               <div className="item-wrap silver">
                 <a href="http://www.assemblient.com/" title="Assemblient">
                   <img alt="Assemblient" src={Assemblient} />
@@ -109,13 +103,14 @@ const Sponsors = () => (
               </div>
             </div>
 
-            <div className="columns portfolio-item pull-left">
+            <div className="columns portfolio-item">
               <div className="item-wrap silver">
                 <a href="https://www.mudbath.com.au/" title="mudbath">
                   <img alt="mudbath" src={Mudbath} />
                 </a>
               </div>
             </div>
+          </div>
         </div>
       </div>
 

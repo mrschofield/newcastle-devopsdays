@@ -1600,9 +1600,9 @@ ul#nav li.current a {
 
 /* Portfolio Content */
 #portfolio-wrapper .columns {
-  margin-bottom: 36px;
   display: inline-block;
   float: none;
+  vertical-align: middle;
 }
 
 .portfolio-item .item-wrap {
@@ -1630,7 +1630,7 @@ ul#nav li.current a {
 }
 
 .gold {
-  width: 180px;
+  width: 220px;
 }
 
 .silver {
@@ -1690,7 +1690,6 @@ ul#nav li.current a {
   margin-top: -15px;
 }
 .portfolio-item .item-wrap img {
-  vertical-align: bottom;
 }
 .portfolio-item .portfolio-item-meta {
   padding: 18px;

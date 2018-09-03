@@ -21,7 +21,7 @@ const Speakers = () => (
         url="http://davidmcraney.com/"
         name="David McRaney"
         title="Author, Journalist, Public Speaker"
-        about="David is the author of You Are Not So Smart, a blog that became an international best-seller and podcast series."
+        about = "David McRaney is an internationally bestselling author, journalist, and lecturer who created the You Are Not So Smart blog, books and podcast. David cut his teeth covering Hurricane Katrina on the Gulf Coast and in the Pine Belt region of the Deep South. Since then, he has been a beat reporter, an editor, a photographer, voiceover artist, television host, digital content manager, and everything in between. His writing work has been featured at The Atlantic, The New York Post, Salon, Brainpickings, Lifehacker, Gawker, Boing Boing, The Huffington Post, and Big Think among many other places. He is married to Amanda McRaney, and they live in Hattiesburg, Mississippi."
         talk="Keynote - Day 1"
         summary="More details about David's talk will be announced soon!"
       />
@@ -31,8 +31,8 @@ const Speakers = () => (
         twitter="https://twitter.com/aurynn"
         url="https://blog.aurynn.com/"
         name="Aurynn Shaw"
-        title="Founder and DevOps culturalist at http://eiara.nz"
-        about="Aurynn is an accomplished international speaker who focuses on the culture of tech and the ways in which culture is an inextricable part of how software is developed and the implications of what we build."
+        title="Founder and DevOps Culturalist at Eiara"
+        about="Aurynn is the founder of Eiara, a DevOps consultancy based out of Wellington, New Zealand, focussing on helping clients develop technical DevOps capability, and the cultural knowledge to use it. With over a decade as a professional software developer, Aurynn’s expertise ranges from modern cloud deployments to massively parallel supercomputer environments. As the defining voice of the ideas of “contempt culture”, Aurynn is working to change the very nature of how we create new technologies, and the questions that we must answer as we do."
         talk="Keynote - Day 2"
         summary="More details about Aurynn's talk will be announced soon!"
       />

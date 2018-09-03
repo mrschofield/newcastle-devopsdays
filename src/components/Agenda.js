@@ -50,9 +50,9 @@ const Agenda = () => (
               body="Present your ideas for open spaces"
             />
             <TimelineSection
-              name="Ignites"
+              name="Agile Chatbots"
+              speakers="Shilpa Cheruvu, Jemimah Irvin & Hailey Martin"
               time="11:15 - 11:45 AM"
-              body="Quick, to the point talks"
             />
             <TimelineSection
               name="Sponsors"
@@ -65,10 +65,9 @@ const Agenda = () => (
               body="Catered Lunch"
             />
             <TimelineSection
-              name="Agile Chatbots"
-              speakers="Shilpa Cheruvu, Jemimah Irvin & Hailey Martin"
+              name="Ignite Talks"
               time="12:55 - 13:25 PM"
-              body=""
+              body="Quick, to the point talks"
             />
             <TimelineSection
               name="Sponsors"
@@ -76,7 +75,8 @@ const Agenda = () => (
               body=""
             />
             <TimelineSection
-              name="Open Space 1"
+              name="Failure Is Not An Option (It's a Core Feature!)"
+              speakers="James Boswell"
               time="13:35 - 14:20 PM"
               body=""
             />
@@ -86,18 +86,17 @@ const Agenda = () => (
               body=""
             />
             <TimelineSection
-              name="Open Space 2"
+              name="Open Space 1"
               time="14:50 - 15:35 PM"
               body=""
             />
             <TimelineSection
-              name="Open Space 3"
+              name="Open Space 2"
               time="15:35 - 16:20 PM"
               body=""
             />
             <TimelineSection
-              name="Failure Is Not An Option (It's a Core Feature!)"
-              speakers="James Boswell"
+              name = "Open Space 3"
               time="16:20 - 16:50 PM"
               body=""
             />

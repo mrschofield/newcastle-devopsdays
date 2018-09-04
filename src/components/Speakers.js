@@ -50,7 +50,7 @@ const SpeakersList = [
     twitter: "https://twitter.com/jemimahirvin",
     url: "",
     title: "Senior Software Developer (Shilpa), UX Designer (Jemimah), DevOps Engineer (Hailey)",
-    about: "",
+    about: "Jemimah is a visual designer turned UX designer who is happiest at work when scribbling on a whiteboard, mapping out user research and working with a multi-disciplinary team. Outside of work, happiness looks like a veggie garden, messing about with paints or cooking with freshly sharpened knives. Hailey is a DevOps Engineer who secretly wishes her title was something cooler like 'DevOps Witch' or 'Engineer of Chaos'. She enjoys building tools for developers to make their lives easier, engineering servers that manage themselves, and over-using party parrot emojis in Slack.",
     talk: "Agile Chatbots",
     summary: "Chatbots are a hot topic right now but very little published work has been done around the development cycles. Hear about how the team at nib stood up an agile cross functional team and developed a continuous delivery pipeline for their chatbot nibby delivering up to 20 deployments per day."
   },

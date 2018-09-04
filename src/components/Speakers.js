@@ -6,7 +6,8 @@ import davidmcraney from "../assets/images/david-mcraney.jpg";
 import aurynnshaw from "../assets/images/aurynn.jpg";
 import mattray from "../assets/images/matt-ray.jpeg";
 import geshanmanandhar from "../assets/images/geshan-manandhar.jpg";
-import jamesboswell from "../assets/images/james-boswell.jpg";
+import jamesboswell from "../assets/images/james-boswell.png";
+import damianbrady from "../assets/images/damian-brady.png";
 
 const SpeakersList = [
   {
@@ -81,7 +82,7 @@ const SpeakersList = [
     image: jamesboswell,
     twitter: "https://twitter.com/xcapee",
     url: "https://cmdsolutions.com.au",
-    title: "Enterprise Architect at CMD Solutions",
+    title: "Cloud Architect and Senior Consultant at CMD Solutions Australia",
     about: "James Boswell has over 30 years experience in IT, covering hardware design, telecommunications research and development, software development and enterprise architecture. He is an inveterate sufferer of imposter syndrome, constantly surprised that people seem to think he has something worth saying. He is also a father of six and grandfather, and co-author of the book “Cyberparenting – Raising your kids in an online world”.",
     talk: "Failure Is Not An Option (It's a Core Feature!)",
     summary: "This talk examines the breadth and depth of DevOps through the lens of “failure”. Understanding failure is essential to gain the rewards DevOps offers. I cover reliability engineering, testing, culture, psychological safety, and more! Includes stories from industry leaders and personal experience."
@@ -89,7 +90,7 @@ const SpeakersList = [
   {
     name: "Damian Brady",
     id: "damian-brady",
-    image: nopic,
+    image: damianbrady,
     twitter: "https://twitter.com/damovisa",
     url: "https://damovisa.me",
     title: "Cloud Developer Advocate at Microsoft",

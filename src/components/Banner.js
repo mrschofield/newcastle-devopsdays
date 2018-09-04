@@ -16,7 +16,7 @@ const Banner = () => (
         <a href="https://ti.to/devopsaustralia/devopsdays-newcastle-2018"><button>Buy Tickets</button></a>
       </p>
       <p className="centered">
-        <Link to="#buy-tickets"><button>Diversity Scholarship</button></Link>
+        <Link to="#diversity-scholarship"><button>Diversity Scholarship</button></Link>
       </p>
     </div>
   </div>

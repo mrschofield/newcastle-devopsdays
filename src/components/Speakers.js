@@ -4,6 +4,9 @@ import Speaker from './Speaker';
 import nopic from "../assets/favicon.png";
 import davidmcraney from "../assets/images/david-mcraney.jpg";
 import aurynnshaw from "../assets/images/aurynn.jpg";
+import mattray from "../assets/images/matt-ray.jpeg";
+import geshanmanandhar from "../assets/images/geshan-manandhar.jpg";
+import jamesboswell from "../assets/images/james-boswell.jpg";
 
 const SpeakersList = [
   {
@@ -31,7 +34,7 @@ const SpeakersList = [
   {
     name: "Matt Ray",
     id: "matt-ray",
-    image: nopic,
+    image: mattray,
     twitter: "https://twitter.com/mattray",
     url: "http://leastresistance.net/",
     title: "Manager and Solutions Architect at Chef",
@@ -53,7 +56,7 @@ const SpeakersList = [
   {
     name: "Geshan Manandhar",
     id: "geshan-manandhar",
-    image: nopic,
+    image: geshanmanandhar,
     twitter: "https://twitter.com/geshan",
     url: "http://geshan.com.np",
     title: "Senior Software Engineer at THE ICONIC",
@@ -75,7 +78,7 @@ const SpeakersList = [
   {
     name: "James Boswell",
     id: "james-boswell",
-    image: nopic,
+    image: jamesboswell,
     twitter: "https://twitter.com/xcapee",
     url: "https://cmdsolutions.com.au",
     title: "Enterprise Architect at CMD Solutions",

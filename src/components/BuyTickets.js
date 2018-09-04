@@ -21,7 +21,7 @@ const BuyTickets = () => (
       </div>
 
       <hr/>
-      <div className="twelve columns collapsed">
+      <div className="twelve columns collapsed" id="diversity-scholarship">
         <h1>Diversity Scholarship</h1>
       </div>
       <div className="text">

@@ -25,6 +25,7 @@ const Agenda = () => (
             <TimelineSection
               name="Keynote"
               speakers="David McRaney"
+              speakerId="david-mcraney"
               time="9:15 - 10:00 AM"
             />
 
@@ -36,6 +37,7 @@ const Agenda = () => (
             <TimelineSection
               name="10 Years of DevOps - How Did We Get Here and Where Are We Going?"
               speakers="Matt Ray"
+              speakerId="matt-ray"
               time="10:10 - 10:40 AM"
               body=""
             />
@@ -52,6 +54,7 @@ const Agenda = () => (
             <TimelineSection
               name="Agile Chatbots"
               speakers="Shilpa Cheruvu, Jemimah Irvin & Hailey Martin"
+              speakerId="shilpa-cheruvu-jemimah-irvin-hailey-martin"
               time="11:15 - 11:45 AM"
             />
             <TimelineSection
@@ -77,6 +80,7 @@ const Agenda = () => (
             <TimelineSection
               name="From A and B to ~150 Microservices, The Journey and Learnings"
               speakers="Geshan Manandhar"
+              speakerId="geshan-manandhar"
               time="13:35 - 14:20 PM"
               body=""
             />
@@ -126,6 +130,7 @@ const Agenda = () => (
             <TimelineSection
               name="Keynote"
               speakers="Aurynn Shaw"
+              speakerId="aurynn-shaw"
               time="9:15 - 10:00 AM"
               body=""
             />
@@ -137,6 +142,7 @@ const Agenda = () => (
             <TimelineSection
               name="Hacking Major Companies for Fun and Profit"
               speakers="Rhys Elsmore"
+              speakerId="rhys-elsmore"
               time="10:10 - 10:40 AM"
               body=""
             />
@@ -153,6 +159,7 @@ const Agenda = () => (
             <TimelineSection
               name="Failure Is Not An Option (It's a Core Feature!)"
               speakers="James Boswell"
+              speakerId="james-boswell"
               time="11:15 - 11:45 AM"
               body=""
             />
@@ -169,6 +176,7 @@ const Agenda = () => (
             <TimelineSection
               name="DevOps for Data Science"
               speakers="Damian Brady"
+              speakerId="damian-brady"
               time="12:55 - 13:25 PM"
               body=""
             />
@@ -217,14 +225,14 @@ const TimelineHeader = (props) => (
 
 const TimelineSection = (props) => {
   let topic = <div><h4>{props.name}</h4></div>;
-  let url = `/speakers#${props.speakers}`;
-  if (props.speakers) {
+  
+  if (props.speakers && props.speakerId) {
     topic = 
       <div>
-        <a href={url}>
+        <Link to={`/speakers#${props.speakerId}`}>
           <h4>{props.speakers}</h4>
           <h5 className="title">{props.name}</h5>
-        </a>
+        </Link>
       </div>
   }
 

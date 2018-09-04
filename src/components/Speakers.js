@@ -119,7 +119,7 @@ We're just spreading all properties of each speaker to the component, if you wan
 
 const Speakers = () => (
   <section id="speakers">
-    <div className="row">
+    <div className="row" id="home">
       <h2>DevOpsDays Newcastle 2018 - Speakers</h2>
 
       <p>We are thrilled to welcome the following amazing speakers to Devopsdays Newy!</p>

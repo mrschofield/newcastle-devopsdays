@@ -1482,6 +1482,11 @@ ul#nav li.current a {
   padding: 60px;
 }
 
+#agenda .bigger {
+  padding-bottom: 1em;
+  font: 19px/26px 'opensans-light', sans-serif;
+}
+
 #agenda h1 {
   font: 22px/24px "opensans-semibold", sans-serif;
   text-transform: uppercase;
@@ -1517,8 +1522,24 @@ ul#nav li.current a {
   margin-bottom: 2em;
 }
 
+#agenda-timeline .timeline-header h3 {
+  font-weight: bold;
+}
+
+#ignite {
+  padding-top: 3em;
+}
+
+#ignite em {
+  font-weight: bold;
+}
+
+#open-spaces em {
+  font-weight: bold;
+}
+
 #agenda-timeline .time {
-  font: 19px/36px 'opensans-light', sans-serif;
+  font: 19px/36px;
   margin-bottom: 8px;
 }
 
@@ -2353,10 +2374,11 @@ footer .social li:first-child {
   color: #11abb0;
 }
 
-#speakers h2 {
+#speakers > h2 {
   font: 22px/30px "opensans-bold", sans-serif;
   color: #fff;
   margin-bottom: 12px;
+  font-weight: bold;
 }
 
 #speakers p {

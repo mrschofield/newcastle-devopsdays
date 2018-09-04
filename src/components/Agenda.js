@@ -6,6 +6,7 @@ const Agenda = () => (
     <div className="row">
       <div className="twelve columns collapsed">
         <h1>Agenda</h1>
+        <p className="centered bigger">Click or tap through for more information on a talk!</p>
       </div>
     </div>
     <div className="row">
@@ -213,6 +214,14 @@ const Agenda = () => (
           </div>
         </div>
       </div>
+    </div>
+    <div className="row">
+      <p id="ignite">
+        <em>Ignite Talks:</em> These are 5 minute-long lightning talks where the slides will automatically change every 15 seconds.
+      </p>
+      <p id="open-spaces">
+        <em>Open Spaces:</em> Breakout sessions focused on topics suggested on the day by attendees. These topics may be sparked by the talks had earlier in the conference, or may simply reflect an issue you are facing in your workplace.
+      </p>
     </div>
   </section>
 );

@@ -6,7 +6,7 @@ import davidmcraney from "../assets/images/david-mcraney.jpg";
 import aurynnshaw from "../assets/images/aurynn.jpg";
 import mattray from "../assets/images/matt-ray.jpeg";
 import geshanmanandhar from "../assets/images/geshan-manandhar.jpg";
-import jamesboswell from "../assets/images/james-boswell.png";
+import jamesboswell from "../assets/images/james-boswell.jpg";
 import damianbrady from "../assets/images/damian-brady.png";
 
 const SpeakersList = [

@@ -75,8 +75,8 @@ const Agenda = () => (
               body=""
             />
             <TimelineSection
-              name="Failure Is Not An Option (It's a Core Feature!)"
-              speakers="James Boswell"
+              name="From A and B to ~150 Microservices, The Journey and Learnings"
+              speakers="Geshan Manandhar"
               time="13:35 - 14:20 PM"
               body=""
             />
@@ -151,8 +151,8 @@ const Agenda = () => (
               body="Present your ideas for open spaces"
             />
             <TimelineSection
-              name="From A and B to ~150 Microservices, The Journey and Learnings"
-              speakers="Geshan Manandhar"
+              name="Failure Is Not An Option (It's a Core Feature!)"
+              speakers="James Boswell"
               time="11:15 - 11:45 AM"
               body=""
             />

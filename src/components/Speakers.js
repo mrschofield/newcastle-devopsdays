@@ -61,13 +61,13 @@ const Speakers = () => (
 
       <Speaker
         image={nopic}
-        twitter="https://twitter.com/xcapee"
-        url="https://cmdsolutions.com.au"
-        name="James Boswell"
-        title="Enterprise Architect at CMD Solutions"
-        about="James Boswell has over 30 years experience in IT, covering hardware design, telecommunications research and development, software development and enterprise architecture. He is an inveterate sufferer of imposter syndrome, constantly surprised that people seem to think he has something worth saying. He is also a father of six and grandfather, and co-author of the book “Cyberparenting – Raising your kids in an online world”."
-        talk="Failure Is Not An Option (It's a Core Feature!)"
-        summary="This talk examines the breadth and depth of DevOps through the lens of “failure”. Understanding failure is essential to gain the rewards DevOps offers. I cover reliability engineering, testing, culture, psychological safety, and more! Includes stories from industry leaders and personal experience."
+        twitter="https://twitter.com/geshan"
+        url="http://geshan.com.np"
+        name="Geshan Manandhar"
+        title="Senior Software Engineer at THE ICONIC"
+        about="Geshan is a seasoned software engineer, with more than a decade of software engineering experience. Currently, in Sydney, Australia serving THE ICONIC as senior software engineer. He has a keen interest in REST architecture and microservices. He is actively involved with the developer community in his hometown Kathmandu, Nepal. He occasionally blogs in his free time."
+        talk="From A and B to ~150 Microservices, The Journey and Learnings"
+        summary="Are you frustrated working with large, legacy and potentially lethal code bases? We were frustrated too, but in 4-5 years of time, we replaced A (front-end) and B (back-office) system with ~150 microservices. This talk reveals that journey and the things we learned along the way."
       />
 
       <Speaker
@@ -83,13 +83,13 @@ const Speakers = () => (
 
       <Speaker
         image={nopic}
-        twitter="https://twitter.com/geshan"
-        url="http://geshan.com.np"
-        name="Geshan Manandhar"
-        title="Senior Software Engineer at THE ICONIC"
-        about="Geshan is a seasoned software engineer, with more than a decade of software engineering experience. Currently, in Sydney, Australia serving THE ICONIC as senior software engineer. He has a keen interest in REST architecture and microservices. He is actively involved with the developer community in his hometown Kathmandu, Nepal. He occasionally blogs in his free time."
-        talk="From A and B to ~150 Microservices, The Journey and Learnings"
-        summary="Are you frustrated working with large, legacy and potentially lethal code bases? We were frustrated too, but in 4-5 years of time, we replaced A (front-end) and B (back-office) system with ~150 microservices. This talk reveals that journey and the things we learned along the way."
+        twitter="https://twitter.com/xcapee"
+        url="https://cmdsolutions.com.au"
+        name="James Boswell"
+        title="Enterprise Architect at CMD Solutions"
+        about="James Boswell has over 30 years experience in IT, covering hardware design, telecommunications research and development, software development and enterprise architecture. He is an inveterate sufferer of imposter syndrome, constantly surprised that people seem to think he has something worth saying. He is also a father of six and grandfather, and co-author of the book “Cyberparenting – Raising your kids in an online world”."
+        talk="Failure Is Not An Option (It's a Core Feature!)"
+        summary="This talk examines the breadth and depth of DevOps through the lens of “failure”. Understanding failure is essential to gain the rewards DevOps offers. I cover reliability engineering, testing, culture, psychological safety, and more! Includes stories from industry leaders and personal experience."
       />
 
       <Speaker

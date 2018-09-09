@@ -7,6 +7,8 @@ import Assemblient from "../assets/images/logo-assemblient.png";
 import Mudbath from "../assets/images/logo-mudbath.png";
 import REA from "../assets/images/logo-rea.png";
 import Hays from "../assets/images/logo-hays.png";
+import CSA from "../assets/images/logo-csa.png";
+import NewyTechPeople from "../assets/images/logo-newytechpeople.jpg";
 
 const Sponsors = () => (
   <section id="sponsors">
@@ -51,12 +53,19 @@ const Sponsors = () => (
       <div className="row">
         <div className="twelve columns collapsed">
           <h3>Gold Sponsors</h3>
-
           <div id="portfolio-wrapper" className="cf align-center">
             <div className="columns portfolio-item">
               <div className="item-wrap gold">
                 <a href="https://www.rea-group.com" title="rea group">
                   <img alt="rea group" src={REA} />
+                </a>
+              </div>
+            </div>
+
+            <div className="columns portfolio-item">
+              <div className="item-wrap gold">
+                <a href="https://csa.com.au/" title="CSA">
+                  <img alt="CSA" src={CSA} />
                 </a>
               </div>
             </div>
@@ -107,6 +116,14 @@ const Sponsors = () => (
               <div className="item-wrap silver">
                 <a href="https://www.mudbath.com.au/" title="mudbath">
                   <img alt="mudbath" src={Mudbath} />
+                </a>
+              </div>
+            </div>
+
+            <div className="columns portfolio-item">
+              <div className="item-wrap smaller">
+                <a href="https://jamesmacdonald.me/podcast" title="newy tech people">
+                  <img alt="newy tech people" src={NewyTechPeople} />
                 </a>
               </div>
             </div>

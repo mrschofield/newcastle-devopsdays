@@ -1678,6 +1678,10 @@ ul#nav li.current a {
   width: 180px;
 }
 
+.smaller {
+  width: 100px;
+}
+
 .portfolio-item .item-wrap a {
   display: block;
   cursor: pointer;

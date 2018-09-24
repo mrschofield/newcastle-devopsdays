@@ -4,7 +4,6 @@ import Speaker from './Speaker';
 import nopic from "../assets/favicon.png";
 import davidmcraney from "../assets/images/david-mcraney.jpg";
 import aurynnshaw from "../assets/images/aurynn.jpg";
-import mattray from "../assets/images/matt-ray.jpeg";
 import geshanmanandhar from "../assets/images/geshan-manandhar.jpg";
 import jamesboswell from "../assets/images/james-boswell.jpg";
 import damianbrady from "../assets/images/damian-brady.png";
@@ -33,15 +32,15 @@ const SpeakersList = [
     summary: "More details about Aurynn's talk will be announced soon!"
   },
   {
-    name: "Matt Ray",
-    id: "matt-ray",
-    image: mattray,
-    twitter: "https://twitter.com/mattray",
-    url: "http://leastresistance.net/",
-    title: "Manager and Solutions Architect at Chef",
-    about: "Matt Ray is Chef’s Sydney-based Manager and Solutions Architect for APJ. He has been active in the open source community for over two decades and has worked in a wide variety of startups and enterprises. He podcasts at SoftwareDefinedTalk.com, blogs at LeastResistance.net and is @mattray on Twitter, IRC, GitHub and too many Slacks.",
-    talk: "10 Years of DevOps - How Did We Get Here and Where Are We Going?",
-    summary: "DevOps is nearly 10 years old as a term, yet it continues to evolve in response to the state of the software world. While DevOps has no formal definition, we will explore how it has changed over time. New concepts like SRE and serverless will continue this evolution of how we think about DevOps."
+    name: "Anthony Borton",
+    id: "anthony-borton",
+    image: nopic,
+    twitter: "https://twitter.com/AnthonyBorton",
+    url: "http://www.myalmblog.com",
+    title: "DevOps Architect at Microsoft",
+    about: "Anthony Borton is a DevOps Architect on the Microsoft Global Enterprise DevOps customer advisory team. In this role, he helps organisations be more successful with their Agile DevOps transformations. Prior to joining Microsoft, he authored and delivered training around the world on Agile and DevOps. Anthony is passionate about continuous learning and is never scared to experiment so he can learn from both successes and failures.",
+    talk: "Four lessons learnt from Microsoft's DevOps Transformation!",
+    summary: "DevOps transformation runs on data and one of the most challenging things a team can do is decide what metrics they’re going to be measured on. Learn about the importance of metrics and why they can be dangerous! We’ll look at the metrics we use in over 35 Agile teams in the Microsoft VSTS org."
   },
   {
     name: "Shilpa Cheruvu, Jemimah Irvin & Hailey Martin",
@@ -100,11 +99,11 @@ const SpeakersList = [
   }
 ];
 
-{/* 
+{/*
 
 We're just spreading all properties of each speaker to the component, if you want to limit this you need to specifiy them like so:
 
-<Speaker 
+<Speaker
   name={speaker.name}
   id={speaker.id}
   image={speaker.image}
@@ -114,7 +113,7 @@ We're just spreading all properties of each speaker to the component, if you wan
   about={speaker.about}
   talk={speaker.talk}
   summary={speaker.summary}
-/> 
+/>
 */}
 
 const Speakers = () => (

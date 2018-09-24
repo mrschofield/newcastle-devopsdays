@@ -22,7 +22,7 @@ const Agenda = () => (
               name="Welcome"
               time="9:00 - 9:15 AM"
             />
-            
+
             <TimelineSection
               name="Keynote"
               speakers="David McRaney"
@@ -36,9 +36,9 @@ const Agenda = () => (
               body=""
             />
             <TimelineSection
-              name="10 Years of DevOps - How Did We Get Here and Where Are We Going?"
-              speakers="Matt Ray"
-              speakerId="matt-ray"
+              name="Four lessons learnt from Microsoft's DevOps Transformation!"
+              speakers="Anthony Borton"
+              speakerId="anthony-borton"
               time="10:10 - 10:40 AM"
               body=""
             />
@@ -234,9 +234,9 @@ const TimelineHeader = (props) => (
 
 const TimelineSection = (props) => {
   let topic = <div><h4>{props.name}</h4></div>;
-  
+
   if (props.speakers && props.speakerId) {
-    topic = 
+    topic =
       <div>
         <Link to={`/speakers#${props.speakerId}`}>
           <h4>{props.speakers}</h4>

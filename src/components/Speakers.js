@@ -40,7 +40,7 @@ const SpeakersList = [
     title: "DevOps Architect at Microsoft",
     about: "Anthony Borton is a DevOps Architect on the Microsoft Global Enterprise DevOps customer advisory team. In this role, he helps organisations be more successful with their Agile DevOps transformations. Prior to joining Microsoft, he authored and delivered training around the world on Agile and DevOps. Anthony is passionate about continuous learning and is never scared to experiment so he can learn from both successes and failures.",
     talk: "Four lessons learnt from Microsoft's DevOps Transformation!",
-    summary: "DevOps transformation runs on data and one of the most challenging things a team can do is decide what metrics they’re going to be measured on. Learn about the importance of metrics and why they can be dangerous! We’ll look at the metrics we use in over 35 Agile teams in the Microsoft VSTS org."
+    summary: "Microsoft believes DevOps is key to digital transformation. Seven years ago, the company undertook its DevOps journey and now has over 80,000 engineers doing DevOps in the public cloud. In this session I’ll share with you 4 lessons we learnt and the habits we have adopted as a result."
   },
   {
     name: "Shilpa Cheruvu, Jemimah Irvin & Hailey Martin",

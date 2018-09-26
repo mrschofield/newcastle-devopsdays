@@ -9,6 +9,9 @@ import REA from "../assets/images/logo-rea.png";
 import Hays from "../assets/images/logo-hays.png";
 import CSA from "../assets/images/logo-csa.png";
 import NewyTechPeople from "../assets/images/logo-newytechpeople.jpg";
+import Vibrato from "../assets/images/vibrato-logo.png";
+import LWB from "../assets/images/LWB.png";
+import DIUS from "../assets/images/dius.png";
 
 const Sponsors = () => (
   <section id="sponsors">
@@ -42,9 +45,14 @@ const Sponsors = () => (
       <div className="twelve columns collapsed">
         <h3>Platinum Sponsors</h3>
 
-        <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-quarters cf">
-          <div className="columns portfolio-item">
-          </div>
+        <div id="portfolio-wrapper" className="cf align-center">
+            <div className="columns portfolio-item">
+              <div className="item-wrap platinum">
+                <a href="https://www.vibrato.com.au/" title="Vibrato">
+                  <img alt="Vibrato" src={Vibrato} />
+                </a>
+              </div>
+            </div>
         </div>
       </div>
 
@@ -88,7 +96,7 @@ const Sponsors = () => (
             </div>
 
             <div className="columns portfolio-item">
-              <div className="item-wrap silver">
+              <div className="item-wrap gold">
                 <a href="https://www.hays.com.au/digital-technology" title="Hays">
                   <img alt="Hays Digital Technology" src={Hays} />
                 </a>
@@ -124,6 +132,22 @@ const Sponsors = () => (
               <div className="item-wrap smaller">
                 <a href="https://jamesmacdonald.me/podcast" title="newy tech people">
                   <img alt="newy tech people" src={NewyTechPeople} />
+                </a>
+              </div>
+            </div>
+
+            <div className="columns portfolio-item">
+              <div className="item-wrap silver">
+                <a href="https://dius.com.au/what-we-do/?utm_source=DevOpsNewcastle&utm_medium=Logo_Link" title="DiUS">
+                  <img alt="DiUS" src={DIUS} />
+                </a>
+              </div>
+            </div>
+
+            <div className="columns portfolio-item">
+              <div className="item-wrap silver">
+                <a href="http://www.lwb.org.au/" title="Life Without Barriers">
+                  <img alt="Life Without Barriers" src={LWB} />
                 </a>
               </div>
             </div>

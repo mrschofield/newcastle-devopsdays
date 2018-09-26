@@ -42,20 +42,20 @@ const Sponsors = () => (
 
       <hr/>
 
-      <div className="twelve columns collapsed">
-        <h3>Platinum Sponsors</h3>
-
-        <div id="portfolio-wrapper" className="cf align-center">
-            <div className="columns portfolio-item">
-              <div className="item-wrap platinum">
-                <a href="https://www.vibrato.com.au/" title="Vibrato">
-                  <img alt="Vibrato" src={Vibrato} />
-                </a>
+      <div className="row">
+        <div className="twelve columns collapsed">
+          <h3>Platinum Sponsors</h3>
+          <div id="portfolio-wrapper" className="cf align-center">
+              <div className="columns portfolio-item">
+                <div className="item-wrap platinum">
+                  <a href="https://www.vibrato.com.au/" title="Vibrato">
+                    <img alt="Vibrato" src={Vibrato} />
+                  </a>
+                </div>
               </div>
-            </div>
+          </div>
         </div>
       </div>
-
 
       <hr/>
       <div className="row">

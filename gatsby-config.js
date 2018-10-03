@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: "DevOpsDays Newcastle 2018",
     author: "Mathew Schofield",
-    description: "DEVOPS DAYS - NEWCASTLE - 2018"
+    description: "DEVOPS DAYS NEWCASTLE - 2018",
   },
   pathPrefix: "/",
   plugins: [
@@ -35,7 +35,8 @@ module.exports = {
               maxWidth: 630
             }
           },
-          "gatsby-remark-copy-linked-files"
+          "gatsby-remark-copy-linked-files",
+          `gatsby-remark-wrap-iframe`
         ]
       }
     },

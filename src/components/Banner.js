@@ -1,3 +1,4 @@
+import Link from "gatsby-link";
 import React from "react";
 import SocialLinks from "./SocialLinks";
 import logo from "../assets/images/DevOpsNewy_WHITE_WIDE TEXT.png";
@@ -11,6 +12,12 @@ const Banner = () => (
       </h3>
       <hr />
       <SocialLinks />
+      <p className="centered">
+        <a href="https://ti.to/devopsaustralia/devopsdays-newcastle-2018"><button>Buy Tickets</button></a>
+      </p>
+      <p className="centered">
+        <Link to="#diversity-scholarship"><button>Diversity Scholarship</button></Link>
+      </p>
     </div>
   </div>
 );

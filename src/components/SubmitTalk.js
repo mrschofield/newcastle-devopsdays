@@ -11,13 +11,13 @@ import Girl from "../assets/images/portfolio/girl.jpg";
 import Origami from "../assets/images/portfolio/origami.jpg";
 import Retrocam from "../assets/images/portfolio/retrocam.jpg";
 
-import whiteBoard from "../assets/images/white-board.png";
+import whiteBoard from "../assets/images/devopsdaysnewy-whiteboard.jpg";
 
 const SubmitTalk = () => (
   <section id="submit">
     <div>
         <h1>
-          <span>Propose a Talk</span>
+          <span>Propose a Talk - Closed</span>
         </h1>
 
         <p>
@@ -34,7 +34,7 @@ const SubmitTalk = () => (
             and demo it at your table.</li>
         </ol>
 
-        <p className="centered">
+        <p className="centered hidden">
           <a href="https://www.papercall.io/2018-devopsdaysnewy"><button>Propose a talk !</button></a>
         </p>
       </div>

@@ -12,6 +12,9 @@ import NewyTechPeople from "../assets/images/logo-newytechpeople.jpg";
 import Vibrato from "../assets/images/vibrato-logo.png";
 import LWB from "../assets/images/LWB.png";
 import DIUS from "../assets/images/dius.png";
+import Hudson from "../assets/favicon.png";
+import SumoLogic from "../assets/favicon.png";
+import PagerDuty from "../assets/favicon.png";
 
 const Sponsors = () => (
   <section id="sponsors">
@@ -77,6 +80,14 @@ const Sponsors = () => (
                 </a>
               </div>
             </div>
+
+            <div className="columns portfolio-item">
+              <div className="item-wrap gold">
+                <a href="https://www.pagerduty.com/" title="PagerDuty">
+                  <img alt="PagerDuty" src={PagerDuty} />
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -99,6 +110,22 @@ const Sponsors = () => (
               <div className="item-wrap gold">
                 <a href="https://www.hays.com.au/digital-technology" title="Hays">
                   <img alt="Hays Digital Technology" src={Hays} />
+                </a>
+              </div>
+            </div>
+
+            <div className="columns portfolio-item">
+              <div className="item-wrap gold">
+                <a href="https://au.hudson.com/" title="Hudson">
+                  <img alt="Hudson" src={Hudson} />
+                </a>
+              </div>
+            </div>
+
+            <div className="columns portfolio-item">
+              <div className="item-wrap gold">
+                <a href="https://www.sumologic.com/" title="Sumo Logic">
+                  <img alt="Sumo Logic" src={SumoLogic} />
                 </a>
               </div>
             </div>

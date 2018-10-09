@@ -12,6 +12,9 @@ import NewyTechPeople from "../assets/images/logo-newytechpeople.jpg";
 import Vibrato from "../assets/images/vibrato-logo.png";
 import LWB from "../assets/images/LWB.png";
 import DIUS from "../assets/images/dius.png";
+import SumoLogic from "../assets/images/logo-sumologic.png";
+{/* import PagerDuty from "../assets/images/PagerDuty_logo_GREEN.png"; */}
+{/* import Hudson from "../assets/favicon.png"; */}
 
 const Sponsors = () => (
   <section id="sponsors">
@@ -19,8 +22,11 @@ const Sponsors = () => (
 
     <div className="row">
       <div className="text">
-        <p>
+        {/* <p>
         We greatly value sponsors for this open event. If you are interested in sponsoring, please drop us an email at [ <a href="mailto:organizers-newcastle-2018@devopsdays.org">organizers-newcastle-2018@devopsdays.org</a> ].
+        </p>*/}
+        <p>
+        Sponsorship is now closed.
         </p>
 
         <p>
@@ -35,9 +41,9 @@ const Sponsors = () => (
         The best thing to do is send engineers to interact with the experts at devopsdays on their own terms.
         </p>
 
-        <p>
+        {/*<p>
         <a href='https://drive.google.com/file/d/1HP3JwyC76cQr_3GUs1F7e_rGknfls3jf/view?usp=sharing'>Our sponsorship prospectus can be downloaded here</a>
-        </p>
+        </p>*/}
       </div>
 
       <hr/>
@@ -77,6 +83,16 @@ const Sponsors = () => (
                 </a>
               </div>
             </div>
+
+            {/* Haven't received confirmation yet
+            <div className="columns portfolio-item">
+              <div className="item-wrap gold">
+                <a href="https://www.pagerduty.com/" title="PagerDuty">
+                  <img alt="PagerDuty" src={PagerDuty} />
+                </a>
+              </div>
+            </div>
+           */}
           </div>
         </div>
       </div>
@@ -99,6 +115,24 @@ const Sponsors = () => (
               <div className="item-wrap gold">
                 <a href="https://www.hays.com.au/digital-technology" title="Hays">
                   <img alt="Hays Digital Technology" src={Hays} />
+                </a>
+              </div>
+            </div>
+
+            {/*
+            <div className="columns portfolio-item">
+              <div className="item-wrap gold">
+                <a href="https://au.hudson.com/" title="Hudson">
+                  <img alt="Hudson" src={Hudson} />
+                </a>
+              </div>
+            </div>
+            */}
+
+            <div className="columns portfolio-item">
+              <div className="item-wrap gold">
+                <a href="https://www.sumologic.com/" title="Sumo Logic">
+                  <img alt="Sumo Logic" src={SumoLogic} />
                 </a>
               </div>
             </div>

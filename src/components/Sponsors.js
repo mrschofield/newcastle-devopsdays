@@ -14,7 +14,7 @@ import LWB from "../assets/images/LWB.png";
 import DIUS from "../assets/images/dius.png";
 import SumoLogic from "../assets/images/logo-sumologic.png";
 import PagerDuty from "../assets/images/PagerDuty_logo_GREEN.png";
-{/* import Hudson from "../assets/favicon.png"; */}
+import Hudson from "../assets/images/hudson_logo_2016_TEAL.png";
 
 const Sponsors = () => (
   <section id="sponsors">
@@ -117,7 +117,6 @@ const Sponsors = () => (
               </div>
             </div>
 
-            {/*
             <div className="columns portfolio-item">
               <div className="item-wrap gold">
                 <a href="https://au.hudson.com/" title="Hudson">
@@ -125,7 +124,6 @@ const Sponsors = () => (
                 </a>
               </div>
             </div>
-            */}
 
             <div className="columns portfolio-item">
               <div className="item-wrap gold">

@@ -13,7 +13,7 @@ import Vibrato from "../assets/images/vibrato-logo.png";
 import LWB from "../assets/images/LWB.png";
 import DIUS from "../assets/images/dius.png";
 import SumoLogic from "../assets/images/logo-sumologic.png";
-{/* import PagerDuty from "../assets/images/PagerDuty_logo_GREEN.png"; */}
+import PagerDuty from "../assets/images/PagerDuty_logo_GREEN.png";
 {/* import Hudson from "../assets/favicon.png"; */}
 
 const Sponsors = () => (
@@ -84,7 +84,6 @@ const Sponsors = () => (
               </div>
             </div>
 
-            {/* Haven't received confirmation yet
             <div className="columns portfolio-item">
               <div className="item-wrap gold">
                 <a href="https://www.pagerduty.com/" title="PagerDuty">
@@ -92,7 +91,6 @@ const Sponsors = () => (
                 </a>
               </div>
             </div>
-           */}
           </div>
         </div>
       </div>

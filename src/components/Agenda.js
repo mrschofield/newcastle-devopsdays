@@ -63,11 +63,27 @@ const Agenda = () => (
               time="11:50 - 12:55"
               body="Catered Lunch"
             />
-            <TimelineSection
+            {/*<TimelineSection
               name="Ignite Talks"
               time="12:55 - 13:25"
-              body="Quick, to the point talks"
-            />
+              body="Molly Rowe, KJ Tsanaktsidis, Laughing Mind, Matthew Murphy, Garth Kidd"
+            />*/}
+            <section className="timeline-section">
+              <p className="time">12:55 - 13:25</p>
+              <div><h4>Ignite Talks</h4></div>
+              <ul>
+                <li><a href="/speakers#molly-rowe">Molly Rowe</a>
+                  - Distributed Culture: from beer to babies and back again</li>
+                <li><a href="/speakers#kj-tsanaktsidis">KJ Tsanaktsidis</a>
+                  - Continuous profiling for Go applications: how it helped us fix problems we didn’t know we had</li>
+                <li><a href="/speakers#laughing-mind">Laughing Mind</a>
+                  - FeedMe! The rise of DigitalHumans and DevOps implications</li>
+                <li><a href="/speakers#matthew-murphy">Matthew Murphy</a>
+                  - Sidecars for everyone</li>
+                <li><a href="/speakers#garth-kidd">Garth Kidd</a>
+                  - Unicorn tools; a safety guide for regular ponies</li>
+              </ul>
+            </section>
             <TimelineSection
               name="Sponsors"
               time="13:25 - 13:35"

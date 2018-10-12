@@ -96,7 +96,62 @@ const SpeakersList = [
     about: "Damian is a Cloud Developer Advocate specializing in DevOps. Formerly a dev at Octopus Deploy and a Microsoft MVP, he has a background in software development and consulting in a broad range of industries. In Australia, he co-organised the Brisbane .Net User Group, and launched the now annual DDD Brisbane conference. He regularly speaks at conferences, User Groups, and other events around the world, and is an occasional guest on various podcasts like .NET Rocks and Hanselminutes.",
     talk: "DevOps for Data Science",
     summary: "In this session, see how DevOps best practices can be applied to data science and machine learning. I’ll walk through the practices, the tools, and what you should think about when using predictive models in your software."
-  }
+  },
+  {
+    name: "Molly Rowe",
+    id: "molly-rowe",
+    image: nopic,
+    twitter: "https://twitter.com/mulvina_rowe",
+    url: "",
+    title: "Community Manager at Vibrato",
+    about: "Molly is a people person who has a passion for technology and how it influences our everyday lives. She's had a million different jobs and wants to try a million more. Molly is currently the Community Manager for Vibrato, this means she looks after recruitment, marketing and events, and people and culture. She's loving every action-packed minute of it. Helping people succeed is her ongoing career goal. She aspires to make enough small differences that the molehills become a mountain. When she's not working she's finding a new craft hobby, playing MtG or outside in the sunshine.",
+    talk: "Distributed Culture - from beer to babies and back again",
+    summary: "As technology and communication tools get better, and distributed teams become more common, how do we maintain culture? How do you build culture at work when you can't go and have a beer, or take a walk and grab a coffee? The short answer is that you can't. The 5 minute Ignite talk answer is that you can, but it's not easy. You'll get approximately a minute on each of these; 1. Hiring for culture fit - augmenting culture, not conforming. 2. Communication - who, what, when, where, how, why. 3. Managing for distance - empowerment. 4. Be ready for cultural shifts - beers to babies and back again. 5. How Vibrato has done it - the good, the bad and the ugly"
+  },
+  {
+    name: "KJ Tsanaktsidis",
+    id: "kj-tsanaktsidis",
+    image: nopic,
+    twitter: "",
+    url: "",
+    title: "Ops Engineer",
+    about: "I’m an ops engineer currently at Zendesk, where I work on infrastructure and application reliability, performance, and security.",
+    talk: "Continuous profiling for Go applications: how it helped us fix problems we didn’t know we had ",
+    summary: "This talk is the story of why we enabled Stackdriver continuous profiling for our Go application, and how its data helped us to triple the throughput of one part of our application. It turns out the best profiler is the one that’s actually running when you need it!"
+  },
+  {
+    name: "Laughing Mind",
+    id: "laughing-mind",
+    image: nopic,
+    twitter: "https://twitter.com/laughingmind",
+    url: "https://www.laughingmind.com",
+    title: "CoFounder",
+    about: "OTGeek forging #digitalhealth #entrepreneurship DNA in regional Oz. CoFounder: @Assemblient | EIR @slingshotters | #AI in #HealthCare research",
+    talk: "FeedMe! The rise of DigitalHumans and DevOps implications",
+    summary: "With the rise of conversational interfaces, we’re witnessing the emergence of Digital Humans - lifelike avatars as malleable, trainable AI for a range of digital experiences. But they’re data hungry beasts - how does DevOps respond to conversational analytics to keep them responsive + accurate?"
+  },
+  {
+    name: "Matthew Murphy",
+    id: "matthew-murphy",
+    image: nopic,
+    twitter: "https://twitter.com/maltmurphy",
+    url: "",
+    title: "Lead Software Developer",
+    about: "I’m a developer in the platform team at Orica. I enjoy building software and getting it to run reliably in the cloud.",
+    talk: "Sidecars for everyone",
+    summary: "I will give an overview of the sidecar pattern and discuss some of the problems it solves. I will also present some ideas on how people can get started with it simply without the need for a service mesh or anything complicated. I’ll give some examples of popular OSS projects that can be leveraged and give a quick overview of how the pattern helps enable service meshes."
+  },
+  {
+    name: "Garth Kidd",
+    id: "garth-kidd",
+    image: nopic,
+    twitter: "https://twitter.com/garthk",
+    url: "",
+    title: "",
+    about: "",
+    talk: "Unicorn tools: a safety guide for regular ponies",
+    summary: "Everybody knows that to keep up with the latest conference talk hotness from unicorn companies they need Kubernetes, a service mesh, distributed tracing, and a dozen other amazing toys… but some of those can injure or maim regular ponies with a full time ops staff of zero. What’s safe, and when?"
+  },
 ];
 
 {/*
